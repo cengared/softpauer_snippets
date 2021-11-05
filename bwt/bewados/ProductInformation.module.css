@@ -1,0 +1,40 @@
+.root {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.title {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+}
+
+.group {
+  padding-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.value {
+  float: right;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.aqaAlerts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
