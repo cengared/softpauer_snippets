@@ -1,0 +1,113 @@
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10% 0 15%;
+  background-color: #f7f8f8;
+}
+
+.input {
+  font-family: 'CeraPRO';
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 40%;
+  border: none;
+  border-bottom: 2px solid #666b6e;
+  text-align: left;
+  color: #666b6e;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  padding-left: 0px;
+}
+
+.form input::placeholder {
+  font-family: 'CeraPRO';
+}
+
+.input.large {
+  max-width: 86%;
+  margin-top: 20px;
+}
+
+.input::placeholder {
+  font-family: 'CeraPRO';
+  font-size: 19px;
+  font-weight: 400;
+  color: #b5b9bb;
+  line-height: 20px;
+}
+
+.phInput::placeholder {
+  font-family: 'CeraPRO';
+  font-size: 19px;
+  font-weight: 400;
+  color: #b5b9bb;
+  line-height: 20px;
+}
+
+.saveBtn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  padding: 0 10%;
+  color: #ed2b43;
+}
+
+.topSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 63px 10% 0;
+}
+
+.phInput {
+  font-family: 'CeraPRO';
+  margin-left: 7%;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 40%;
+  border: none;
+  border-bottom: 2px solid #666b6e;
+  text-align: left;
+  color: #666b6e;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  padding-left: 0px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 80px;
+  padding: 0 20px;
+}

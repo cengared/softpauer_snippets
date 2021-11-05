@@ -1,0 +1,21 @@
+.page {
+  padding: 30px 10px;
+  padding-top: calc(40px + env(safe-area-inset-top));
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header {
+  font-size: 18px;
+}
+
+.button {
+  padding-bottom: 15px;
+}

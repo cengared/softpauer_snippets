@@ -1,0 +1,19 @@
+.root {
+  margin: 15px 4% 25px;
+}
+
+.border {
+  margin: 0 1%;
+  border-top: 1px solid #b5b9bb;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+  margin: 0 1%;
+}
+
+.swiper {
+  height: 125px;
+}
