@@ -1,0 +1,6 @@
+.root {
+  padding: 20px;
+  padding-top: 20px;
+  padding-top: calc(20px + constant(safe-area-inset-top)); /* iOS 11.0 */
+  padding-top: calc(20px + env(safe-area-inset-top)); /* iOS 11.2 */
+}
